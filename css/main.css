@@ -7,6 +7,11 @@
 }
 a {
     text-decoration: none;
+    transition: all .6s blue;
+}
+
+a:hover {
+    color: blue;
 }
 
 .fa {
@@ -159,6 +164,9 @@ header .user-logins .user-icon {
     -webkit-border-radius: 4px 4px 4px 4px;
 }
 
+
+/* ONLNIE SUGGESTIONS */
+
 #content-area .suggestions {
     margin-top: 40px;
 }
@@ -216,6 +224,67 @@ header .user-logins .user-icon {
     display: block;
     font-size: 12px;
 }
+
+/* OFFLINE SUGGESTIONS */
+
+#content-area .offline-suggestions {
+    margin-top: 40px;
+}
+
+#content-area .offline-suggestions h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+#content-area .offline-suggestions .live-channels {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0 25px;
+    display: inline-block;
+}
+
+#content-area .offline-suggestions .live-channels .game-img img{
+    height: 165px;
+    width: 300px;
+}
+
+#content-area .offline-suggestions .live-channels .stream-desc {
+    margin-top: 20px;
+}
+
+#content-area .offline-suggestions .live-channels .stream-desc .user-img img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+}
+#content-area .offline-suggestions .live-channels .stream-title {
+   margin-left: 50px;
+   margin-top: -45px;
+}
+
+#content-area .offline-suggestions .live-channels .stream-title span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#content-area .offline-suggestions .live-channels .stream-title .streamer-info {
+    margin-top: 4px;
+    display: block;
+}
+
+#content-area .offline-suggestions .live-channels .stream-title .streamers-info .user-name {
+    display: block;
+    padding-bottom: 4px;
+    font-size: 12px;
+}
+
+#content-area .offline-suggestions .live-channels .stream-title .streamer-info .user-game {
+    display: block;
+    font-size: 12px;
+}
+
 /* SIDEBAR */
 
 #sidebar {
