@@ -7,11 +7,11 @@
 }
 a {
     text-decoration: none;
-    transition: all .6s blue;
+    transition: all .6s ease-in-out;
 }
 
 a:hover {
-    color: blue;
+    color: #A970FF;
 }
 
 .fa {
@@ -288,10 +288,11 @@ header .user-logins .user-icon {
 /* SIDEBAR */
 
 #sidebar {
+    height: 100%;
     width: 15%;
-    height: 900px;
+    position: fixed;
     border-right: 1px solid #CDCDD0;
-    margin-top: 10px;
+    padding: 10px;
 }
 
 #sidebar .rec {
@@ -305,18 +306,13 @@ header .user-logins .user-icon {
     color: #CDCDD0;
 }
 
-#sidebar .channels {
-    position: relative;
-}
-
 #sidebar .channels .live-channel {
     display: block;
     margin-top: 30px;
-    margin-left: 12px;
-    padding-top: 20px;
 }
 
-#sidebar .channels .live-channel .user-photo img {
+
+#sidebar .channels .live-channel .user-info .user-photo img {
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -328,11 +324,6 @@ header .user-logins .user-icon {
     margin-left: 55px;
     display: block;
     color: #CDCDD0;
-    transition: all .6s ease-in-out;
-}
-
-#sidebar .channels .live-channel .user-info a:hover {
-    color: blue;
 }
 
 #sidebar .channels .live-channel .user-info .user-name {
@@ -349,7 +340,6 @@ header .user-logins .user-icon {
 }
 
 #sidebar .channels .live-channel .user-info .views {
-    /* margin-left: 50px; */
     display: inline-block;
     float: right;
     margin-right: 10px;
