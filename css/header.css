@@ -1,0 +1,110 @@
+header {
+    padding: 8px 0;
+    border-bottom: 1px solid #CDCDD0;
+}
+
+header .logo-area {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header .logo-area a  .fa{
+    color: #CDCDD0;
+    font-size: 18px;
+    transition: all .6s ease-in-out;
+}
+
+header .logo-area a .fa:hover {
+    color: blue;
+}
+
+header .browse-area {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header .browse-area a {
+    color: #CDCDD0;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0 5px;
+    transition: all .6s ease-in-out;
+}
+
+header .browse-area a:hover {
+    color: blue;
+}
+
+header .search-area {
+    display: inline-block;
+    margin-left: 253px;
+    padding: 2px;
+    /* border: 2px solid #CDCDD0; */
+}
+
+header .search-area span {
+    font-size: 18px;
+    margin-left: 3px;
+    padding: 3px;
+    background: #29292B;
+    border-radius: 0px 6px 0px 0px;
+    -moz-border-radius: 0px 6px 0px 0px;
+    -webkit-border-radius: 0px 6px 0px 0px;
+}
+
+header .search-area input[type=text] {
+    font-size: 18px;
+    background: #29292B;
+    border-radius: 0px 0px 0px 6px;
+    -moz-border-radius: 0px 0px 0px 6px;
+    -webkit-border-radius: 0px 0px 0px 6px;
+}
+
+header .user-logins {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+}
+
+header .user-logins button {
+    text-transform: uppercase;
+    margin: 0 5px;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 0px 4px 4px 0px;
+    -moz-border-radius: 0px 4px 4px 0px;
+    -webkit-border-radius: 0px 4px 4px 0px;
+    border: 0px solid #000000;
+}
+
+header .user-logins .btn-1 {
+    margin-right: 22px;
+    background: #CDCDD0;
+    font-size: 14px;
+    color: #FFF;
+    transition: all .6s ease-in-out;
+}
+header .user-logins .btn-1:hover {
+    background: #A970FF;
+}
+
+header .user-logins .btn-2 {
+    margin-right: 40px;
+    background: #A970FF;
+    font-size: 14px;
+    color: #CDCDD0;
+    transition: all .6s ease-in-out;
+}
+
+header .user-logins .btn-2:hover {
+    background: #CDCDD0;
+    color: #A970FF;
+}
+
+header .user-logins .user-icon {
+    float: right;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 2px;
+}

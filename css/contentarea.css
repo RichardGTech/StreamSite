@@ -1,0 +1,126 @@
+/* CONTENT AREA */
+
+#content-area {
+    width: 85%;
+    float: right;
+}
+
+#content-area .promo-area {
+    border-bottom: 1px solid #CDCDD0;
+}
+#content-area .promo-area  h3{
+    color: #CDCDD0;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: 400;
+    margin-right: 161px;
+}
+
+#content-area .promo-area .featured-game img {
+    width: 35%;
+    margin: 25px 300px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+}
+
+/* ONLNIE SUGGESTIONS */
+
+#content-area .suggestions {
+    margin-top: 40px;
+}
+
+#content-area .suggestions h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+#content-area .suggestions .live-channels {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0 25px;
+}
+
+#content-area .suggestions .live-channels .game-img img{
+    height: 165px;
+    width: 300px;
+}
+
+#content-area .suggestions .live-channels .stream-desc {
+    margin-top: 20px;
+}
+
+#content-area .suggestions .live-channels .stream-desc .user-img img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#content-area .suggestions .live-channels .stream-title {
+   margin-left: 50px;
+   margin-top: -45px;
+}
+
+#content-area .suggestions .live-channels .stream-title span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#content-area .suggestions .live-channels .stream-title .streamer-info {
+    margin-top: 4px;
+    display: block;
+}
+
+#content-area .suggestions .live-channels .stream-title .streamers-info .user-name {
+    display: block;
+    padding-bottom: 4px;
+    font-size: 12px;
+}
+
+#content-area .suggestions .live-channels .stream-title .streamer-info .user-game {
+    display: block;
+    padding-top: 3px;
+    font-size: 12px;
+}
+
+
+/* CATEGORIES */
+#content-area .category-suggestions {
+    margin-top: 40px;
+}
+
+
+#content-area .category-suggestions h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+#content-area .category-suggestions .game-lists {
+    margin-top: 20px;
+    margin-left: 10%;
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    width: 33.33%;
+}
+
+#content-area .category-suggestions .game-lists span h5 {
+    padding-top: 15px;
+    font-size: .6rem;
+}
+
+#content-area .category-suggestions .game-lists img {
+    height: 200px;
+    width: 200px;
+}
+
+#content-area .category-suggestions .game-lists .game-2 {
+    margin-left: 40%;
+}
+
+#content-area .category-suggestions .game-lists .game-3 {
+    margin-left: 40%;
+}

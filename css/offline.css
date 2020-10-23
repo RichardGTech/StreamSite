@@ -1,0 +1,60 @@
+#content-area .offline-suggestions {
+    margin-top: 40px;
+}
+
+#content-area .offline-suggestions h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+#content-area .offline-suggestions .live-channels {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0 25px;
+}
+
+#content-area .offline-suggestions .live-channels .game-img img{
+    height: 165px;
+    width: 300px;
+}
+
+#content-area .offline-suggestions .live-channels .stream-desc {
+    margin-top: 20px;
+}
+
+#content-area .offline-suggestions .live-channels .stream-desc .user-img img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#content-area .offline-suggestions .live-channels .stream-title {
+   margin-left: 50px;
+   margin-top: -45px;
+}
+
+#content-area .offline-suggestions .live-channels .stream-title span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#content-area .offline-suggestions .live-channels .stream-title .streamer-info {
+    margin-top: 4px;
+    display: block;
+}
+
+#content-area .offline-suggestions .live-channels .stream-title .streamers-info .user-name a {
+    display: block;
+    padding-bottom: 4px;
+    font-size: 12px;
+    transition: all .6s ease-in-out;
+}
+
+#content-area .offline-suggestions .live-channels .stream-title .streamers-info .user-name a {
+    color: blue;
+}
+
+#content-area .offline-suggestions .live-channels .stream-title .streamer-info .user-game {
+    display: block;
+    font-size: 12px;
+}
